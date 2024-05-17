@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:practice_music_app/screen/home/tab_screen/music/provider/music_provider.dart';
-import 'package:practice_music_app/screen/home/tab_screen/video/provider/video_provider.dart';
+import 'package:practice_music_app/screen/music/provider/music_provider.dart';
+import 'package:practice_music_app/screen/video/provider/video_provider.dart';
+import 'package:practice_music_app/utils/app_theme.dart';
 import 'package:practice_music_app/utils/routes.dart';
 import 'package:provider/provider.dart';
 
@@ -26,6 +27,7 @@ void main() {
       child: MaterialApp(
         routes: screen,
         debugShowCheckedModeBanner: false,
+        theme: appTheme,
       ),
     ),
   );

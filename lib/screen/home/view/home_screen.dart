@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:practice_music_app/screen/home/tab_screen/music/view/music_screen.dart';
-import 'package:practice_music_app/screen/home/tab_screen/video/view/video_screen.dart';
+
+import '../../music/view/music_screen.dart';
+import '../../video/view/video_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
